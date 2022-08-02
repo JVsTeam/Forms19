@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc05014c-4c10-4ce9-be9a-0f5abb215484">
+  <producedTypes>
+    <managerType typeId="6b7a08ab-f12d-4ba9-969f-d299ba35646c" valueTypeId="eff295de-f154-4f8f-81b6-acd9bb3de6c9"/>
+    <valueManagerType typeId="a7d77adc-ab48-4d7b-b5d8-5cf90735097b" valueTypeId="56b46b3f-44a0-48f1-9a68-a016f47aa39b"/>
+    <valueKeyType typeId="3c8e2a3f-1e6e-583b-9613-1adf5d7efbd1" valueTypeId="356af545-d4a0-5e0a-98a4-54f8a11e5c9c"/>
+  </producedTypes>
+  <name>ТолькоЮридическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Только юридические лица</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

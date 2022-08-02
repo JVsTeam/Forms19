@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f02467aa-14a5-451b-a5a2-12325c1004a8">
+  <producedTypes>
+    <objectType typeId="cea2790b-871f-4e3d-a509-1791cc687ef1" valueTypeId="f494dd65-1341-4984-8f55-31f4ea2471e9"/>
+    <managerType typeId="a887a806-edb1-4993-a4dd-8ba7f81b8609" valueTypeId="b376ee68-edd4-4391-bed7-0119265dd0c4"/>
+  </producedTypes>
+  <name>ВременноеХранилищеИФоновоеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Временное хранилище и фоновое задание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВременноеХранилищеИФоновоеЗадание.Form.Форма</defaultForm>
+  <forms uuid="761020b5-1db2-4ab3-b1b5-092dbc260c44">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

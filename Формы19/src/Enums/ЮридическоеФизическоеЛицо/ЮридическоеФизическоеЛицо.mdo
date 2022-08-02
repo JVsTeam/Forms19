@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6686d8c0-1e1c-46ad-97b9-ee8e35ec6f44">
+  <producedTypes>
+    <refType typeId="1c8d11e5-6f34-4605-a3d5-a859584486da" valueTypeId="c6953a09-3cf3-4a5a-9797-4731b706fca2"/>
+    <listType typeId="0b709b45-1035-406c-b4d7-a5901878617b" valueTypeId="d993a974-328d-4268-bd14-935d0969b4b7"/>
+    <managerType typeId="a1aa7b99-d712-483c-a5ba-b481a9ae00e3" valueTypeId="65bd25bc-2188-45d6-9340-064d24c475a3"/>
+  </producedTypes>
+  <name>ЮридическоеФизическоеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юридическое / физическое лицо</value>
+  </synonym>
+  <comment>Определяет, является ли организация или контрагент юридическим лицом или нет.</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4aecb714-39c1-428b-8ffd-2ffc4b8f1840">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43731c9c-d2e6-42ad-9523-aecaef1a58ad">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eac91b65-61bc-4649-ad59-92d189a0342b">
+  <producedTypes>
+    <objectType typeId="abeb3ffa-bb6a-416f-8d89-61055738b58e" valueTypeId="fc1679a3-5ccb-4a89-aa88-ef950526e340"/>
+    <refType typeId="56e558fd-2305-4a57-a218-d9e00a308064" valueTypeId="5ca717dd-d794-4bd6-bb1f-a7782183bb5f"/>
+    <selectionType typeId="29cd358e-d43d-4878-9efb-1177348d5dab" valueTypeId="78c1f62a-e096-4301-a3e9-e8a8c16073e0"/>
+    <listType typeId="87c56567-e2fe-478f-a937-1ae94193e60c" valueTypeId="04888ba5-1a95-4909-9379-3afa2881b91f"/>
+    <managerType typeId="b670892d-2ba1-4683-b87a-b4d931a18425" valueTypeId="68142bbe-fd68-4282-9600-90fc02efd08e"/>
+  </producedTypes>
+  <name>ПоступлениеОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление оплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеОплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Проекты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="823f2d58-798e-412e-981d-547c51b9d28f">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="495d7a26-094f-45aa-8763-efadbcd6f294">
+    <name>СуммаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма оплаты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

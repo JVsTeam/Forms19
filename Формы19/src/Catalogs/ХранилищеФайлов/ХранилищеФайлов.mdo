@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bd2b4ac-a036-4be0-b6c4-a13eff9e49bb">
+  <producedTypes>
+    <objectType typeId="aa50ced0-6b16-4129-a369-7025fb8154ef" valueTypeId="b622ce81-c846-46e8-938a-2d6c65fd154a"/>
+    <refType typeId="847d7933-7b1f-4cf8-98cc-f2fca6833544" valueTypeId="a81e3df1-039d-4635-874b-ea00381fd91d"/>
+    <selectionType typeId="83bd3292-2408-40b2-a3c5-3963e09ca609" valueTypeId="8b30d8d0-123e-4af2-a6ea-8b1cf56a16e7"/>
+    <listType typeId="b95bbf7a-0813-4ad0-915f-e57e9599c7ba" valueTypeId="35d62bc4-2fb5-4953-8a51-56e21c29a311"/>
+    <managerType typeId="f699080b-cd07-4372-b6ee-db3089026aa8" valueTypeId="f4c9a0cc-aea2-4e91-a521-c8282abfa0a8"/>
+  </producedTypes>
+  <name>ХранилищеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище файлов</value>
+  </synonym>
+  <inputByString>Catalog.ХранилищеФайлов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ХранилищеФайлов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="f66c73ec-e13a-4739-b35c-7cfd60c3b50c">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6268004-c642-40c6-b5e0-b6cf3e52ad4a">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b9d7af0-4f20-4bff-8d3b-4fce678d91b4">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="52064dab-46a8-421b-ab06-291435c4c76b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

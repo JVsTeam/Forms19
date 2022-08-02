@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a10fa04-9fdc-42a1-bbc9-b310fd21372e">
+  <producedTypes>
+    <objectType typeId="4d98e0cc-a9a7-4697-9c79-77e7b9754b7d" valueTypeId="6755ed88-82ab-446a-bd40-169508f98db9"/>
+    <managerType typeId="a4e34a88-94e0-407f-8900-1bd7b3522abf" valueTypeId="db09b418-e24d-4e99-a90e-586f2cde5cc5"/>
+  </producedTypes>
+  <name>ДанныеФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные формы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДанныеФормы.Form.Форма</defaultForm>
+  <tabularSections uuid="84735a91-080d-4abb-8478-730c94e8fd07">
+    <producedTypes>
+      <objectType typeId="231ef81d-4368-4df6-80a0-51c0bf5e71b8" valueTypeId="a50a2077-90d4-4df4-864c-c2eae9e5b016"/>
+      <rowType typeId="693aec4c-3cec-43ea-8194-64455bcea1c8" valueTypeId="49927ef5-cb60-49aa-a407-bd82c78a3963"/>
+    </producedTypes>
+    <name>ТабЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб часть</value>
+    </synonym>
+    <attributes uuid="92270448-7779-41cf-9d60-1d7a22fd245e">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1aee5095-2999-401c-84bc-26d5d56c2726">
+      <name>Показатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d1ffbc6a-b949-4cfc-ae3c-dd50801730a6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

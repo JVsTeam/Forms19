@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1536d9a-6976-4b28-8eed-a0c5d0245fbf">
+  <name>МодульФоновыеЗаданияУпрИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модуль фоновые задания упр интерфейс</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

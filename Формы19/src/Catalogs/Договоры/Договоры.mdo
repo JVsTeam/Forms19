@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf9a2412-1a8d-4a8a-b4d2-6a0f9e6e2a62">
+  <producedTypes>
+    <objectType typeId="0043b93f-84bd-4397-8642-5af184fcb0f4" valueTypeId="b2f2f2d9-63a6-4076-91fa-29b647174787"/>
+    <refType typeId="7374f8e6-af27-4c86-aae5-08d9cb5e6900" valueTypeId="0e5b28df-1d16-42f2-bd35-81d950258bf3"/>
+    <selectionType typeId="9987f45e-64b3-4590-8eff-df832231245d" valueTypeId="2e4857f3-af92-48c0-ab05-90a51c6760be"/>
+    <listType typeId="1e8cf692-f866-4f0a-80fb-931fba04bb71" valueTypeId="d1b3d4c1-94e3-4614-8da3-2b8d79cb3222"/>
+    <managerType typeId="761dc8e3-0328-4901-9ea1-58e6b5e39b5f" valueTypeId="6299649b-990f-45a8-ab6d-ef2d878df927"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Договоры.Form.ФормаСписка</defaultListForm>
+  <forms uuid="508b5125-d4c2-4594-aff2-3d00fa22f732">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

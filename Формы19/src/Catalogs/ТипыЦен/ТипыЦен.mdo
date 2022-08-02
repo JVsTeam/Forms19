@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="545686a9-cbda-4ad6-8d0c-c746e13b9d5a">
+  <producedTypes>
+    <objectType typeId="82f19e0b-e611-4d34-b64a-52a92a9a01ba" valueTypeId="b2d7bbf8-9982-485d-b4d0-e7c172e2a296"/>
+    <refType typeId="d64cfafa-6325-4237-8978-d4ef4931bbf1" valueTypeId="99479bef-9d04-41af-b511-a50eeb8544a4"/>
+    <selectionType typeId="fa229d56-b66c-4d0c-acd3-ca7a8a64854e" valueTypeId="99d6eded-6159-4f32-a506-bf8fec64efcc"/>
+    <listType typeId="c368c7e2-7398-4fb0-b22a-c88b5407799b" valueTypeId="c5169503-5869-4078-a08a-fee59696fe54"/>
+    <managerType typeId="4fbf7ca5-ab37-4c22-9ffb-9019fd030b47" valueTypeId="5d003e66-850c-47ed-aaf6-3ea5d4e40039"/>
+  </producedTypes>
+  <name>ТипыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

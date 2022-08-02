@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e2612e7-89a1-45d6-9647-95a5d253ce02">
+  <name>ПокупкиИПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупки и продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

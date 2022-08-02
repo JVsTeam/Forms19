@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e9ea9fb-f0af-4180-96f7-07e865e33b51">
+  <producedTypes>
+    <objectType typeId="81f637cb-9dba-4365-9404-acff3959cd70" valueTypeId="d9e0b87b-e51d-4f84-aad6-527f56f9f6df"/>
+    <managerType typeId="2130d807-af56-4a86-a7d5-420c0f2a5600" valueTypeId="9e3ff8b1-3217-41e2-b3a8-bd5bb58ed5a9"/>
+  </producedTypes>
+  <name>ПодборНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор номенклатуры</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПодборНоменклатуры.Form.ФормаПодбора</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="cd4f2f6f-4380-45d9-be26-0be3071c7e58">
+    <name>СтруктураПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура параметров</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9e276124-9972-477f-8897-6ba632c1e0b5">
+    <name>ФормаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

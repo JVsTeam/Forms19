@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c7d08b3-2f18-487e-a2bb-999ca9009fb6">
+  <producedTypes>
+    <objectType typeId="6b0204df-2d70-469a-8074-38654b1e8f21" valueTypeId="e3b51073-1a0b-4da5-a471-b3abdb7e7848"/>
+    <refType typeId="9738e5ad-fd63-4556-a9e3-945700e1ae5d" valueTypeId="7b14080b-43d7-45ed-bb2a-1ba47365a3cd"/>
+    <selectionType typeId="fbdce488-5981-4589-ad52-44555fefe559" valueTypeId="40a802d1-bdba-4196-8c1d-952d7cbc92d6"/>
+    <listType typeId="5f6e055a-6e5a-4a43-962d-d2de003925b3" valueTypeId="93c5387f-a1db-4ced-b177-eb8d8020f19b"/>
+    <managerType typeId="80affa1c-8a42-48c7-b244-c377586142fc" valueTypeId="0a7b6ea6-eb42-49cb-9fc5-a96fc54f38a8"/>
+    <containerType typeId="ae829626-09d5-481a-89ad-f521625e5384" valueTypeId="98c8459b-47b2-4fb6-bda7-115796276b29"/>
+  </producedTypes>
+  <name>НазначенияСвойствОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения свойств объектов</value>
+  </synonym>
+  <inputByString>ChartOfCharacteristicTypes.НазначенияСвойствОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.НазначенияСвойствОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3df0996f-119d-4b4f-83ec-5ecbc39ee3ae">
+      <name>Справочник_Контрагенты</name>
+      <description>Справочник &quot;Контрагенты&quot;</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+    </items>
+    <items id="a07b8724-6a53-4644-a0e3-fd393c0946d9">
+      <name>Справочник_Номенклатура</name>
+      <description>Справочник &quot;Номенклатура&quot;</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+    </items>
+    <items id="10477bea-67f0-4825-adfd-dd73ffee5ef0">
+      <name>Справочник_ФизическиеЛица</name>
+      <description>Справочник &quot;Физические лица&quot;</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

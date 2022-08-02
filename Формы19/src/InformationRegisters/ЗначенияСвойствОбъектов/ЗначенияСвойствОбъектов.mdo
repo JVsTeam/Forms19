@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="935d8b2f-33b3-4ef0-b95a-d80185ab529b">
+  <producedTypes>
+    <selectionType typeId="cabf6e57-1325-485d-b3b8-4320ddeb0ed1" valueTypeId="9552b3fb-67dd-4e1b-a45c-02929dd2259b"/>
+    <listType typeId="b4a3678a-3f11-41c1-9ff3-a46502c44d25" valueTypeId="42988867-8cc8-429e-bb35-0a7d8ed43bfb"/>
+    <managerType typeId="c1aef24f-5c5d-4d75-a41a-8dc359e49168" valueTypeId="c0c787d0-b893-4dcc-b841-30f46d8051b3"/>
+    <recordSetType typeId="b9c02137-29cb-490a-861f-c53f2dfe1bcf" valueTypeId="481ccb6b-3ef8-4ea5-86b5-484fa9306daa"/>
+    <recordKeyType typeId="1d66b21c-67a4-4f00-bd6b-2b43aaba226a" valueTypeId="28e2682b-b2d1-4024-aff3-7a2fc554e700"/>
+    <recordType typeId="2115500b-f6d7-4118-98bb-903bb1137164" valueTypeId="3e7898dd-8c95-435a-9996-65485094e5ed"/>
+    <recordManagerType typeId="504a38cf-2fbd-48a1-a004-610394e69efe" valueTypeId="1437fc34-3eef-4e48-ab4b-6eb8603e6dc2"/>
+  </producedTypes>
+  <name>ЗначенияСвойствОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств объектов</value>
+  </synonym>
+  <defaultListForm>InformationRegister.ЗначенияСвойствОбъектов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="abc247f4-7627-4ffe-ab52-1b7ebf1dec65">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвойстваОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e4f7e062-9189-417f-b402-4f0deeaf24c9">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>Characteristic.НазначенияСвойствОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="023ea053-7510-4408-a03b-63bce7e14996">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6760a65f-3a4c-4742-ae9f-185fc9fd59d4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="562c0c55-a84d-498a-a80e-50e3d10b7d9f">
+  <producedTypes>
+    <objectType typeId="f31fde64-2e4c-4fcb-b4e5-1ca9eee25c1f" valueTypeId="d1a68320-60f0-4ab3-b5b6-69b56be4e70d"/>
+    <managerType typeId="63d3e201-6306-4798-b106-7db5550f564f" valueTypeId="a8e719d6-6e39-4ee4-af3b-7e9e8c6af071"/>
+  </producedTypes>
+  <name>ОбработкаДанныхЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка данных за период</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбработкаДанныхЗаПериод.Form.Форма</defaultForm>
+  <attributes uuid="90080bec-0746-40cb-b286-fa13b2c186d0">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="055247a9-4150-4519-a535-77ee0ceae0e0">
+    <name>ДатаКонца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="569e13e8-00d4-4d78-85e5-902f80cbbc9e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

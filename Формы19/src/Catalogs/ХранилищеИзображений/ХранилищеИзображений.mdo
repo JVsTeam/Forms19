@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d61bd70-0fc1-40bd-b0a8-22bc739006a4">
+  <producedTypes>
+    <objectType typeId="2ed777b2-78f8-4c74-94db-51f82522b6c9" valueTypeId="b1020dc1-92db-48d5-88b3-719a64ac9b0a"/>
+    <refType typeId="30d7df35-b91d-4a00-b12a-3159e41841ce" valueTypeId="24ec7d28-124f-4327-820f-ca5c2895076d"/>
+    <selectionType typeId="bca81845-9709-460b-8b3a-92230cdc90e8" valueTypeId="ea139e5b-b87a-4fed-b94e-a6e8ba453420"/>
+    <listType typeId="1b0a60be-cf99-44a2-9080-5c545b6e6f98" valueTypeId="a15a9b28-abdf-4ceb-8e5a-864060e3c999"/>
+    <managerType typeId="8144fb98-eaaf-43fe-bbfa-5db3797fa9fb" valueTypeId="c8d87294-6973-4d31-bc3f-e0db00a1e9e4"/>
+  </producedTypes>
+  <name>ХранилищеИзображений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище изображений</value>
+  </synonym>
+  <inputByString>Catalog.ХранилищеИзображений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХранилищеИзображений.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="423ab226-105a-46ad-9f7f-3175c1908f75">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d83fbb2e-d49c-4dc6-a59e-02d6001b0838">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="99718467-1ec3-4d61-aea2-8ae138e63a0c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

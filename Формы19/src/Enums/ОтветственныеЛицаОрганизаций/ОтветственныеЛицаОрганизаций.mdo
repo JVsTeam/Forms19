@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f130098e-7a72-43d0-9c84-1b964b2424fa">
+  <producedTypes>
+    <refType typeId="34f8b7a9-449c-454b-ab8a-5eb7f17fcc5e" valueTypeId="ea92492c-db0a-48e5-bd50-35fa441afeb7"/>
+    <listType typeId="b5e2c219-3573-42d0-b729-2bf67fb33c2c" valueTypeId="7d719fc0-f88e-4340-86d6-f6f91d762891"/>
+    <managerType typeId="d3d7ab01-e036-450c-9ff3-4cb22cb8eab0" valueTypeId="475be342-229c-4d8e-936b-9ed18f3d7442"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица организаций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb0792f6-9d27-47f6-b099-52c7aa4cbcf8">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7498e5af-73e2-430f-95ac-909fbd57fe8a">
+    <name>ГлавныйБухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный бухгалтер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="561dd123-e3de-487d-b33d-7a275840de18">
+  <producedTypes>
+    <objectType typeId="d91238e2-f85e-4866-9388-f3f2fd932690" valueTypeId="0c98a88d-c352-4d15-91d8-f45187a85576"/>
+    <managerType typeId="fd5b8877-e093-4dc9-90ab-656f5701302c" valueTypeId="11700aa0-4793-4549-91dc-8bf8bcfc5dc4"/>
+  </producedTypes>
+  <name>ЗначенияСвойствОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств объекта</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗначенияСвойствОбъекта.Form.Форма</defaultForm>
+  <attributes uuid="38f95d80-fcd2-4aa5-8c6d-41ea27227e93">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>Characteristic.НазначенияСвойствОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="70d2537a-3777-41ad-9029-4d60593aa0d5">
+    <name>НазначениеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение свойства</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="64bf07f9-2419-4a76-b15e-a9b706c5a849">
+    <producedTypes>
+      <objectType typeId="17c69643-3c7a-4b81-81ad-21f7db5e742b" valueTypeId="906a16f9-83b7-4ab5-b292-1c475f8e4ae1"/>
+      <rowType typeId="9655ae50-aec4-433a-8006-4329e492f7da" valueTypeId="272a063d-13a5-41ee-9f06-542eed65d087"/>
+    </producedTypes>
+    <name>СвойстваИЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства и значения</value>
+    </synonym>
+    <attributes uuid="ea7b4332-2905-4710-850e-a36a75b4464b">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="61984db9-22d9-47b6-83e4-46e4596b335e">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="40f0c8df-8d40-4df5-a8ea-83e6b1775836">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.СвойстваОбъектов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a971d24a-aa88-4c6f-8172-a7da70d3cc2f">
+      <name>Ключ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3afb40ae-c3d2-4207-a1f8-a259c3d61e0a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

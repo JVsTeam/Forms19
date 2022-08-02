@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76b9a4dc-72af-4689-94ec-55282c74cc8b">
+  <producedTypes>
+    <objectType typeId="9b81b6ad-4fa3-40ee-b5a6-11f6c3ae083b" valueTypeId="9498ddcd-0b9c-459d-b22f-8e4c66cc7e61"/>
+    <refType typeId="c71cef93-df2f-4774-aaf0-13db734c04d7" valueTypeId="b67dea24-8b3f-4f14-86f2-5de8589d769b"/>
+    <selectionType typeId="948f1391-b0f5-4f9d-986a-083d56d5dbf0" valueTypeId="c671990f-7f5c-4874-9ce6-19b1e76e5467"/>
+    <listType typeId="8beaa6f6-ba1e-4c9d-bd9a-563651881ebe" valueTypeId="7b7a8bd3-2fb7-4c33-9217-1bd6ca1ee3b5"/>
+    <managerType typeId="700ac0d9-5bbb-414e-aefd-eae789de3411" valueTypeId="e743a89d-8b9d-4512-8220-dc7adc0f1b59"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Организации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Организации.Form.ФормаСписка</defaultListForm>
+  <forms uuid="4f6d5b44-a4c9-4dd8-bf30-a7b4c39c7c84">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="29415c2f-66b3-416d-accc-4a6a601c1436">
+    <name>ФормаЭлементаВариант1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента вариант1</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ddf4c54-3a50-47d8-8201-25b4382b5821">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

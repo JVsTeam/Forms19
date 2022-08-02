@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6e1a9db-42b9-4d24-b65b-980241c12e7d">
+  <producedTypes>
+    <listType typeId="2ed1ee00-d8ce-4057-9969-1407ca331519" valueTypeId="b34e519b-bf9d-4a06-9ecc-b7bfa6324c6b"/>
+    <managerType typeId="18de528d-6b26-429e-ac31-fe2a496bccea" valueTypeId="4a7d791f-0d1f-47ed-a079-9fd1cc257eac"/>
+  </producedTypes>
+  <name>НоменклатураВДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура в документах</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <content>Document.ПоступлениеТоваровУслуг.TabularSection.Товары.Attribute.Номенклатура</content>
+  <content>Document.ПоступлениеТоваровУслуг.TabularSection.Услуги.Attribute.Номенклатура</content>
+  <content>Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.Номенклатура</content>
+  <content>Document.РеализацияТоваровУслуг.TabularSection.Услуги.Attribute.Номенклатура</content>
+</mdclass:FilterCriterion>

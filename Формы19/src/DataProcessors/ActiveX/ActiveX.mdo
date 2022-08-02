@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00fb7e25-0428-4629-b1b3-c814ec8f56ab">
+  <producedTypes>
+    <objectType typeId="5fd150d9-6443-4eeb-ba89-3a121346346b" valueTypeId="ad54f29b-361a-4ed9-b4e6-4e1d96bcb825"/>
+    <managerType typeId="c6fa0a90-cb70-4a6d-adbd-899baa37f480" valueTypeId="9870d696-ae07-45c8-8dc3-6199e9dc476a"/>
+  </producedTypes>
+  <name>ActiveX</name>
+  <synonym>
+    <key>ru</key>
+    <value>Active X</value>
+  </synonym>
+  <defaultForm>DataProcessor.ActiveX.Form.Форма</defaultForm>
+  <forms uuid="cb9aaa79-e8a1-4cb3-bb42-ab505447cc31">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

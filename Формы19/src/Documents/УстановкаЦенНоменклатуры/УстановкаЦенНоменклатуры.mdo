@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edc70a3c-3ed3-402f-9ef9-227ed79fc4d2">
+  <producedTypes>
+    <objectType typeId="eec11508-e130-46d0-8c37-dea14e857987" valueTypeId="80f0a35e-dac1-4fc6-8f56-d028c3e313e8"/>
+    <refType typeId="5c7594ac-d5c7-4d0d-937f-dd66e3325733" valueTypeId="9e2a8cfc-a0c5-456f-9115-e56030f20c2b"/>
+    <selectionType typeId="19fcd338-9fbb-4003-a25d-a1e7c02ef884" valueTypeId="af761fc2-c91a-4d28-af9f-4aa23eab89ea"/>
+    <listType typeId="03557d8b-4e7d-4169-ae6e-1cdf81cea134" valueTypeId="1e5241fc-7a98-4434-8c57-ed0169349045"/>
+    <managerType typeId="92202e0c-dce9-4d95-b4ed-3c8441e0955f" valueTypeId="83b68c09-78d2-4ef8-9c90-7eb20f9c1536"/>
+  </producedTypes>
+  <name>УстановкаЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен номенклатуры</value>
+  </synonym>
+  <inputByString>Document.УстановкаЦенНоменклатуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаЦенНоменклатуры.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
+  <attributes uuid="0891bcad-4260-49a0-8fdc-f1d6226b3e40">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7589ed20-6b82-4653-9551-16a77a88b5b4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="badcdf8e-57ff-479c-8383-cf3ec46a4823">
+    <producedTypes>
+      <objectType typeId="82287371-1a8d-441f-825c-b52c4f439fed" valueTypeId="d8f29c32-f35f-4ea7-b6fb-e968139d2728"/>
+      <rowType typeId="d2f27efe-ade1-4ccb-b27c-b550ece0ae24" valueTypeId="d433d624-0b12-430c-a4a3-ebe13881f726"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="1ac27277-c6d3-4671-8454-8cf176fb80df">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="55c0ac7d-8a78-4dfa-9014-41cdf3b349aa">
+      <name>ТипЦен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип цен</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыЦен</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8655e264-adfe-48f4-b7d2-d54b923389c7">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="efe329ec-4487-4e6a-8c5b-7ff41045d748">
+      <name>ИндексСтрокиТаблицыЦен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс строки таблицы цен</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c004c9e1-f176-49dc-a60c-33c6e8221efd">
+    <producedTypes>
+      <objectType typeId="ba231d58-2e47-4899-880f-65d4484f0164" valueTypeId="35625764-933c-4616-8c5a-a38144bb311a"/>
+      <rowType typeId="41635bea-a1ee-4884-b668-42bd1faf8983" valueTypeId="e1e97417-1488-4633-9a11-db18106941bc"/>
+    </producedTypes>
+    <name>ТипыЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы цен</value>
+    </synonym>
+    <attributes uuid="56a5cddc-28d3-4282-a3f1-66ef75d8f02f">
+      <name>ТипЦен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип цен</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТипыЦен</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

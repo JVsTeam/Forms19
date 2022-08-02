@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="478d0f2d-a532-445a-bd00-59091eaf5abb">
+  <producedTypes>
+    <objectType typeId="8e9f96aa-1f29-4593-a76b-f36172afefd6" valueTypeId="e2867fa3-d485-41db-81bc-90d6cd21f7e6"/>
+    <managerType typeId="38a79df0-9d71-4c20-a7df-03e1a5db325b" valueTypeId="312ce717-1648-442b-a388-3b154c588545"/>
+  </producedTypes>
+  <name>ОбработкаДанных2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка данных 2</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбработкаДанных2.Form.Форма</defaultForm>
+  <attributes uuid="877f9dcc-3423-4f13-a6a3-76f0ce603eb9">
+    <name>КоличествоЭлементовДляОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов для обработки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5aaa1edc-f799-4492-bfa3-86cc3e1385ed">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
